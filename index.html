@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   a {
+    color: #008000; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+   }
+   a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+  </style>
+ </head>
+ <body>
+   <html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<title>CSS3 menu</title>
+</head>
+<body>
+<header>
+	<div class="dws-menu">
+		<ul class="dws-ul">
+			<li class="dws-li"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Главная</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Магазин</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-server" aria-hidden="true"></i>Услуги</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>Портфолио</a></li>
+			<li class="dws-li"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Новости</a></li>
+		</ul>
+	</div>
+</header>
+</body>
+ </body>
+</html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Аккордеон слайдер</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="main">
+    <h2>сайт<strong>"aigect"</strong></h2>
+	<div class="panel">
+		<div class="panel-heading">
+			<a href="#"><i class="fa fa-shopping-cart"></i>Lorem ipsum dolor</a>
+		</div>
+		<div class="panel-collapse">
+			<div class="panel-body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi architecto consequatur culpa cupiditate debitis delectus ex fugiat in ipsum iure, nemo, neque nobis placeat provident quas quidem ratione reiciendis repellat reprehenderit repudiandae rerum sequi ullam velit voluptatum? Neque, quos!?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloribus dolorum ea maxime minima optio perspiciatis quaerat repellendus rerum ullam?</p>
+				<h5>Lorem ipsum dolor sit <strong>«amet»: </strong> </h5>
+				<div class="wrapper-ul">
+					<ul>
+						<li>Lorem ipsum:</li>
+						<li><a href="#">Ratione reiciendis</a></li>
+						<li><a href="#">Lorem ipsum</a></li>
+						<li><a href="#">Consectetur adipisicing</a></li>
+					</ul>
+					<ul>
+						<li>Lorem ipsumdolor:</li>
+						<li><a href="#">Lorem ipsum</a></li>
+						<li><a href="#">Repellat reprehenderit</a></li>
+						<li><a href="#">Quidem ratione</a></li>
+						<li><a href="#">Velit voluptatum</a></li>
+						<li><a href="#">Debitis delectus</a></li>
+					</ul>
+					<ul>
+						<li>Lorem ipsum:</li>
+						<li><a href="#">Velit voluptatum</a></li>
+						<li><a href="#">Cupiditate debitis</a></li>
+						<li><a href="#">Debitis delectus</a></li>
+						<li><a href="#">Paceat provident</a></li>
+					</ul>
+				</div>
+				<div class="button"><a href="#">Extended equipment</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="panel">
+		<div class="panel-heading">
+			<a href="#"><i class="fa fa-trophy"></i>что мне удалось сделать для моего сайта</a>
+		</div>
+		<div class="panel-collapse">
+			<p>я исправил все ошибки и научилься пользоваться html но пока у меня навыки в нем на низком уровне в будущем этот сайт будет иметь гипер сылки и выглядеть красиво</p>
+			<div class="wrapper-ul df">
+				<ul>
+					<li>Yotube коналы:</li>
+					<li><a href="#">хауди хо</a></li>
+					<li><a href="#"> денис горелов</a></li>
+					<li><a href="#">DKA-develop</a></li>
+					<li><a href="#">гоша дударь</a></li>
+				</ul>
+			</div>
+			<div class="button"><a href="#">Additional modules</a></div>
+
+		</div>
+	</div>
+	<div class="panel">
+		<div class="panel-heading">
+			<a href="#"><i class="fa fa-server"></i>Several basic advantages</a>
+		</div>
+		<div class="panel-collapse">
+			<div class="panel-body">
+				<p>'этот сайт был создон отдельно для сайта aigect'</p>
+				<div class="button"><a href="#">Подробнее о преимуществах</a></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+
+		$('.panel-heading').click(function () {
+			$(this).toggleClass('in').next().slideToggle();
+			$('.panel-heading').not(this).removeClass('in').next().slideUp();
+        });
+
+    });
+</script>
+</body>
+</html>
+   <body>
+<h1>сайт находиться в стадии разроботки </h1>
+<h2>сайт каждый день будет обновляться</h2>
+<p id="ideveloper">обновления на этом сайте только ради учебных<b> <br ><br> <em>целях</em><p>
+  <a href="https://www.youtube.com/channel/UC7f5bVxWsm3jlZIPDzOMcAg"target="_blank">
+  <h2>хауди<h2>
+    <a href="https://www.youtube.com/channel/UCTgx8cZRD5Jz2_zGaT27S3w"target="_blank">
+    <h4>Денис Гарелов<h4>
+         <a href="#ideveloper"></a>
+
+           <ul>
+             <li>первый элемент списка</li>
+             <li>второй элемент списка</li>
+             <li> <a href="https://www.google.ru/">Google</a> сылка на главную страницу </li>
+             <body>
+               <marquee>спасибо</marquee>
+
+<marquee behavior=alternate direction="right"
+height=45 width=300 bgcolor=#ffff80>
+<font color="Blue"><b>рад что вы смотрите этот сайт</b></font>
+</marquee>
+             </body>
+             
+          <img src="https://images.wallpaperscraft.ru/image/doroga_razmetka_most_123398_300x168.jpg" alt="">
+
+      <form class="" action="index.html" method="post">
+      <input  type="month">
+      <inpat type="submity" name="" value="отправить">
+      </form>
+
+   <div class="">
+
+   </div>
+   <script type="text/javascript">
+setInterval(function () {
+ date = new Date(),
+ h = date.getHours(),
+ m = date.getMinutes(),
+ s = date.getSeconds(),
+ h = (h < 10) ? '0' + h : h,
+ m = (m < 10) ? '0' + m : m,
+ s = (s < 10) ? '0' + s : s,
+ document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
+}, 1000);
+</script>
+
+<span style="color:#7e5a25; font-size:14pt; border:2px solid #e1d4ae; background:#e8e3d4; padding:5px;">
+<span id="time">00:00:00</span>
+</span>
+
+<body>
+  <table border=1>
+<tr>
+<th>продвижение моего сайта</th>
+<th>чего я добился на этом сайте</th>
+</tr>
+<tr>
+<td>я создал страницу и начал писать код текста</td>
+<td>я написал код в 60 строчек</td>
+</tr>
+<tr>
+<td>потом я начал эксперементировать с кодами и создовать виджеты</td>
+<td>я создал код часов и сделал двигающийся текст и картинки</td>
+</tr>
+</table>
+</body>
+<body>
+  <script language="javascript">
+function GetTodaysURL()
+{
+  var locationlist = new URLList
+  (
+        "https://www.youtube.com/watch?v=uFp1C4JOvWY",         // Понедельник
+        "https://www.youtube.com/watch?v=myScaxeTG7U",         // Вторник
+        "https://www.youtube.com/watch?v=gDM9sSgmQ4A",         // Среда
+        "https://www.youtube.com/watch?v=FptK1cyofOs",         // Четверг
+        "https://www.youtube.com/watch?v=KYPbje6ZlAs",         // Пятница
+        "https://www.youtube.com/watch?v=fIZihckPUB4",         // Суббота
+        "https://www.youtube.com/watch?v=GY6Ymp0TkaA"          // Воскресенье
+  );
+
+  now = new Date();
+  num = now.getDay();
+  if (num == 0) num = 7;
+
+  location.href = locationlist.list[num-1];
+}
+
+function URLList ()
+{
+  var argv = URLList.arguments;
+  var argc = argv.length;
+  this.list = new Object();
+  for (var i = 0; i < argc; i++)
+  this.list[i] = argv[i];
+  this.count = argc;
+  return this;
+}
+</script>
+</head>
+<body>
+Это пример кода, выбирающего
+<a href="https://www.youtube.com/watch?v=FptK1cyofOs">
+страницу этого дня</a>.
+Завтра будет показана другая страница.
+</body>
+<body>
+  <script src="https://yastatic.net/share2/share.js"></script>
+  <div class="ya-share2" data-curtain data-size="l"
+   data-color-scheme="blackwhite" data-services=
+   "vkontakte,facebook,odnoklassniki,telegram,twitter,viber,whatsapp"></div>
+</body>
+    </body>
